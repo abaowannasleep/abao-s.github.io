@@ -6,20 +6,18 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Zhoumiao He / About me"
+locale                   : "UTF-8"
+title                    : "Zhoumiao He"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://abao-s.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Zhoumiao HE(何周淼)"
+description              : &description "computational ethnographer<br/>ethnographer of computation"
+url                      : https://stuartgeiger.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "abaowannasleep/abao-s.github.io"
+repository               : "abaowannasleep/staeiou.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
+seo_description          : "Site for Richard Stuart Geiger, Professor of Communication and Data Science at UC San Diego"
 words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -48,34 +46,35 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
+read_more                : "enabled" # if enabled, adds a "read more" link to excerpts 
+future                   : true
 
 # SEO Related
-google_site_verification :
+google_site_verification : "3hdu0GcCfjZ6WbPpApjcdcEGjsCPDcDn1QLtBm-DRBg"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "staeiou"
 facebook:
-  username               :
+  username               : 
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
-
 # Analytics
-analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
+#analytics:
+#  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+#  google:
+#    tracking_id          : "UA-79273-2"
+
 
 
 # Site Author
@@ -87,12 +86,17 @@ author:
   email            : hezhoumiao@stu.scu.edu.cn
   github           : "https://github.com/abaowannasleep"
   orcid            : "https://orcid.org/0000-0002-4316-6786"
-  
+
+
+
 # Reading Files
 include:
   - .htaccess
   - _pages
-  - files
+  - "*.pdf"
+  - "papers/*.pdf"
+  - "portfolio/papers/*.pdf"
+  - "portfolio/*.pdf"
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -100,23 +104,22 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
   - Capfile
+  - CHANGELOG
+  - config
   - Gemfile
   - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
   - gulpfile.js
+  - LICENSE
   - log
   - node_modules
   - package.json
+  - Rakefile
+  - README
   - tmp
-  - vendor
 keep_files:
   - .git
   - .svn
@@ -149,10 +152,10 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
+  articles:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  expressions:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -180,16 +183,43 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _publications
+  # _teaching
   - scope:
       path: ""
-      type: publications
+      type: teaching
+    values:
+      layout: single
+      read_time: false
+      author_profile: true
+      share: false
+      comments: false
+  # _articles
+  - scope:
+      path: ""
+      type: articles
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-
+  # _expressions
+  - scope:
+      path: ""
+      type: expressions
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+      
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -204,11 +234,12 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 
 
 # Plugins
-plugins:
+gems:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-redirect-from
 # mimic GitHub Pages with --safe
 whitelist:
@@ -235,6 +266,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+article_archive:
+  type: liquid
+  path: /articles/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -254,3 +288,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
