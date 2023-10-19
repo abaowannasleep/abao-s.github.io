@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
  
-Please kindly find my [CV](https://echochou990919.github.io/files/ZhoumiaoHe_CV.pdf) here.
+Please kindly find my [CV](https://abaowannasleep.github.io/files/ZhoumiaoHe_CV.pdf) here.
 
 # Education
 
