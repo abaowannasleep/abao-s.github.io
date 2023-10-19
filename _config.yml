@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Zhoumiao He(何周淼)"
-  avatar           : "abao.jpg"
+  # avatar           : "abao.jpg"
   bio              : "Ph.D student in Sichun University"
   location         : "Chengdu, China"
   employer         :
