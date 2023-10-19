@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "UTF-8"
-title                    : "Zhoumiao He"
+title                    : "Zhoumiao He's personal page"
 title_separator          : "-"
-name                     : &name "Zhoumiao HE(何周淼)"
-description              : &description "computational ethnographer<br/>ethnographer of computation"
-url                      : https://stuartgeiger.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Zhoumiao HE"
+description              : &description "Ph.D. Student, Sichuan University"
+url                      : https://github.com/abaowannasleep/abaowannasleep.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "abaowannasleep/staeiou.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -80,9 +80,9 @@ social:
 # Site Author
 author:
   name             : "Zhoumiao He(何周淼)"
-  avatar           : "profile.png"
+  avatar           : "abao.jpg"
   bio              : "Ph.D student in Sichun University"
-  location         : "Chengdu, Sichuan"
+  location         : "Chengdu, China"
   email            : hezhoumiao@stu.scu.edu.cn
   github           : "https://github.com/abaowannasleep"
   orcid            : "https://orcid.org/0000-0002-4316-6786"
