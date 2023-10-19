@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhoumiao He's personal page"
+title                    : "Yi Zhou's Homepage"
 title_separator          : "-"
-name                     : &name "Zhoumiao HE"
-description              : &description "personal description"
-url                      : https://github.com/abaowannasleep/abaowannasleep.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Yi Zhou"
+description              : &description "M.S. Student, Sichuan University"
+url                      : https://echochou990919.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "echochou990919.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zhoumiao He(何周淼)"
-  # avatar           : "abao.jpg"
-  bio              : "Ph.D student in Sichun University"
-  location         : "Chengdu, China"
+  name             : "Yi Zhou (周怡)"
+  avatar           : "abao.jpg"
+  bio              : "M.S. Student, Sichuan University"
+  location         : Chengdu, China
   employer         :
-  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  # googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : hezhoumiao@stu.scu.edu.cn
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com.hk/citations?user=yXOpclkAAAAJ"
+  email            : yizhou2@stu.scu.edu.cn
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/abaowannasleep"
+  github           : "EchoChou990919"
   google_plus      :
   keybase          :
   instagram        :
-  # impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0002-4316-6786"
+  orcid            : "https://orcid.org/0000-0002-0650-4969"
   pinterest        :
   soundcloud       :
-  # stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  # twitter          : "replacethistwitterhandle"
+  twitter          : # "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
