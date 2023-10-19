@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yi Zhou's Homepage"
+title                    : "Zhoumiao He's Homepage"
 title_separator          : "-"
-name                     : &name "Yi Zhou"
-description              : &description "M.S. Student, Sichuan University"
-url                      : https://echochou990919.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Zhoumiao He"
+description              : &description "Ph.D. Student, Sichuan University"
+url                      : https://abaowannasleep.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "echochou990919.github.io"
+repository               : "abaowannasleep.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yi Zhou (周怡)"
-  avatar           : "abao.jpg"
-  bio              : "M.S. Student, Sichuan University"
+  name             : "Zhoumiao He (何周淼)"
+  avatar           : "avatar_test.png"
+  bio              : "Ph.D. Student, Sichuan University"
   location         : Chengdu, China
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com.hk/citations?user=yXOpclkAAAAJ"
-  email            : yizhou2@stu.scu.edu.cn
+  # googlescholar    : "https://scholar.google.com.hk/citations?user=yXOpclkAAAAJ"
+  email            : hezhoumiao@stu.scu.edu.cn
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "EchoChou990919"
+  github           : "https://github.com/abaowannasleep/"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0002-0650-4969"
+  orcid            : "https://orcid.org/0000-0002-4316-6786"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
