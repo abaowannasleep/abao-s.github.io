@@ -14,7 +14,7 @@ My research interests include **three-dimensional topography**, **complex surfac
 I am currently very interested in the measurement methods of complex microdevice morphology(as shown below), welcome to exchange advice!
 
 ![avatar](../images/scale_of_bracket.png)
-$$ The surface has HDR properties because of the metal material, as well as the light source obstruction and mutual reflection caused by the deep grooves.$$
+The surface has HDR properties because of the metal material, as well as the light source obstruction and mutual reflection caused by the deep grooves.
 
 hobbies
 -------
