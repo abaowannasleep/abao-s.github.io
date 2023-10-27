@@ -13,8 +13,14 @@ Welcome to my page! This is Zhoumiao He, a third-year doctoral student in the Co
 My research interests include **three-dimensional topography**, **complex surface characterization**; and **computational imaging**. 
 I am currently very interested in the measurement methods of complex microdevice morphology(as shown below), welcome to exchange advice!
 
-![avatar](../images/scale_of_bracket.png)
-The surface has HDR properties because of the metal material, as well as the light source obstruction and mutual reflection caused by the deep grooves.
+<div align=center> <img src="../images/scale_of_bracket.png"/></div>
+  
+The surface has HDR properties because of the metal material, as well as the light source obstruction and mutual reflection caused by the deep grooves. The recovered depth map is shown as follows and there is still significant room for improvement in measurement accuracy.
+
+<div align=center> <img src="../images/bracket.png"/></div>
+
+
+Welcome to exchange advice about this issue！
 
 hobbies
 -------
