@@ -8,14 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my page! This is Zhoumiao He, a third-year doctoral student in the College of Computer Science, at Sichuan University, under the supervision of Prof. [Jianwei Zhang](https://vs.scu.edu.cn/info/1062/1369.htm).      
+Welcome to my page! This is Zhoumiao He, a third-year doctoral student in the College of Computer Science, at Sichuan University, under Prof. [Jianwei Zhang](https://vs.scu.edu.cn/info/1062/1369.htm). 
+I am currently participating in a joint training program to continue my research at the Department of Industrial and Systems Engineering of the Hong Kong Polytechnic University.
 
 My research interests include **three-dimensional topography**, **complex surface characterization**; and **computational imaging**. 
-I am currently very interested in the measurement methods of complex microdevice morphology(as shown below), welcome to exchange advice!
+I am currently very interested in the measurement methods for complex microdevice morphology(as shown below). You are welcome to exchange advice!
 
 <div align=center> <img src="../images/scale_of_bracket.png"/></div>
   
-The surface has HDR properties because of the metal material, as well as the light source obstruction and mutual reflection caused by the deep grooves. The recovered depth map is shown as follows and there is still significant room for improvement in measurement accuracy.
+The surface has HDR properties because of the metal material, as well as the obstruction of light source and mutual reflection caused by the deep grooves. The recovered depth map is shown as follows and there is still significant room for improvement in measurement accuracy.
 
 <div align=center> <img src="../images/bracket.png"/></div>
 
