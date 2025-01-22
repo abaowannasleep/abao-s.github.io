@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 Welcome to my page! This is Zhoumiao He, a third-year doctoral student in the College of Computer Science, at Sichuan University, under Prof. [Jianwei Zhang](https://vs.scu.edu.cn/info/1062/1369.htm). 
-I am currently participating in a joint training program to continue my research at the Department of Industrial and Systems Engineering of the Hong Kong Polytechnic University.
+I am currently participating in a dual PhD program to continue my research at the Department of Industrial and Systems Engineering(**ISE**) of the Hong Kong Polytechnic University, under the supervision of Prof. [Benny C.F. Cheung](https://www.polyu.edu.hk/ise/people/academic-staff/benny-cf-cheung/).
 
 My research interests include **three-dimensional topography**, **complex surface characterization**; and **computational imaging**. 
 I am currently very interested in the measurement methods for complex microdevice morphology(as shown below). You are welcome to exchange advice!
